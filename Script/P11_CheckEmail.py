@@ -22,7 +22,7 @@ for emailid in ids:
     email_body = data[0][1]                          # getting the mail content
     mailFetch = email.message_from_bytes(email_body) # parsing the mail content to get a mail object
 
-    #Check if any attachments at all
+    
     if mailFetch.get_content_maintype() != 'multipart':
         continue
 
