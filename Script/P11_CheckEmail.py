@@ -13,7 +13,7 @@ mail.select('INBOX') # Specify from where to retrieve the email
 
 response, ids = mail.search(None, '(ALL)') # search all types of mails
 ids = ids[0].split()
-ids = ids[::-1]             # getting latest emails first
+ids = ids[::-1]             
 
 i = 0
 for emailid in ids:
