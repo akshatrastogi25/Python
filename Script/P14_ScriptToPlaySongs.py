@@ -1,4 +1,4 @@
-# This program upon execution will take your command to play music randomly.
+# This program upon execution will take your command to play music randomly
 import pyttsx3 #pip install pyttsx3
 import speech_recognition as sr #pip install speech recognition
 import os
