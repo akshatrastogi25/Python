@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 data = [[30, 25, 50, 20],
 [40, 23, 51, 17],
-[35, 22, 45, 19]] 
+[35, 22, 45, 19]]
 X = np.arange(4)
 fig = plt.figure()
 ax = fig.add_axes([0,0,1,1])
