@@ -3,7 +3,7 @@
 import email, getpass, imaplib, os
 detach_dir = '.'                # directory where to save attachments (default: current)
 # user = input("Enter your Gmail Username:")
-pwd = getpass.getpass("Enter your Gmail Password: ")
+pwd = getpass.getpass("Enter your Gmail Password: ") 
 # connecting to the gmail imap server
 
 mail = imaplib.IMAP4_SSL("imap.gmail.com")
