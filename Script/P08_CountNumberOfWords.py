@@ -1,7 +1,7 @@
 
 # This script helps to count number of words, number of lines and number of characters from a file
 
-def countWords(fileName):
+def countWords(fileName): 
     numwords = 0
     numchars = 0
     numlines = 0
